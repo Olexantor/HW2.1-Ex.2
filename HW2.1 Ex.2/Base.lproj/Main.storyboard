@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -14,32 +14,32 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HW2_1_Ex_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jjd-21-nP4">
-                                <rect key="frame" x="154" y="252" width="120" height="120"/>
+                                <rect key="frame" x="159.33333333333334" y="183.33333333333334" width="95.333333333333343" height="95.333333333333343"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Jjd-21-nP4" secondAttribute="height" multiplier="1:1" id="ZWC-0X-p5N"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Dp-yD-UkP">
-                                <rect key="frame" x="154" y="403" width="120" height="120"/>
+                                <rect key="frame" x="159.33333333333334" y="309.66666666666669" width="95.333333333333343" height="95.333333333333314"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="9Dp-yD-UkP" secondAttribute="height" multiplier="1:1" id="If4-Lm-asH"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N5w-88-VWw">
-                                <rect key="frame" x="154" y="99" width="120" height="120"/>
+                                <rect key="frame" x="159.33333333333334" y="54.999999999999993" width="95.333333333333343" height="95.333333333333314"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="N5w-88-VWw" secondAttribute="height" multiplier="1:1" id="Xbs-BB-F4C"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eb4-Lm-Pa2">
-                                <rect key="frame" x="64" y="739" width="300" height="60"/>
+                                <rect key="frame" x="87.666666666666671" y="595.33333333333337" width="238.66666666666663" height="47.666666666666629"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Eb4-Lm-Pa2" secondAttribute="height" multiplier="5:1" id="Exb-wN-OzG"/>
@@ -56,6 +56,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                         <constraints>
+                            <constraint firstItem="Eb4-Lm-Pa2" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="150:463" id="1tc-rg-MlU"/>
                             <constraint firstItem="N5w-88-VWw" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="60:463" id="4ys-cb-UNU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Eb4-Lm-Pa2" secondAttribute="bottom" constant="93" id="8cF-QY-8lz"/>
                             <constraint firstItem="Jjd-21-nP4" firstAttribute="top" secondItem="N5w-88-VWw" secondAttribute="bottom" constant="33" id="N5m-CP-46F"/>
