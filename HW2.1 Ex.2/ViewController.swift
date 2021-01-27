@@ -15,21 +15,23 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         redView.layer.cornerRadius = 60
         redView.alpha = 0.3
+        
         yellowView.layer.cornerRadius = 60
         yellowView.alpha = 0.3
+        
         greenView.layer.cornerRadius = 60
         greenView.alpha = 0.3
+        
+        startButton.setTitle("START", for: .normal)
     }
 
     @IBAction func startButtonTapped() {
-        startButton.setTitle("NEXT", for: .normal)
-        if
-            redView.alpha == 0.30000001192092896 &&
-            yellowView.alpha == 0.30000001192092896 &&
-            greenView.alpha == 0.30000001192092896
-        {
+        
+        if startButton.currentTitle == "START" {
+            startButton.setTitle("NEXT", for: .normal)
             redView.alpha = 1
         } else if redView.alpha == 1 {
             redView.alpha = 0.3
